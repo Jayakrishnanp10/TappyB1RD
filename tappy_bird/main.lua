@@ -91,7 +91,7 @@ function love.touchpressed( id, x, y, dx, dy, pressure )
             end
         end
         if gamestate=='play' then
-            if x>virtual_width-70 and y<70 then
+            if x>window_width-70 and y<70 then
                 gamestate='pause'
             end
         end
